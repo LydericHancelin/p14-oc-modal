@@ -1,4 +1,4 @@
-# Modal React Component
+## Modal React Component
 
 This is a simple modal React component that you can use in your projects.
 
@@ -26,12 +26,8 @@ You can customize the style using the modal.scss folder.
 
 ## Props
 
-| Name | Type | Default Value | Description |
+| isOpen | type : boolean | default value : false | description : Determines whether the modal is open or closed. |
 
-| -------------- | -------- | ------------- | ----------------------------------------------- |
+| onClose | type : function | default value : undefined | description : Function to close the modal. |
 
-| isOpen | boolean | false | Determines whether the modal is open or closed. |
-
-| onClose | function | undefined | Function to close the modal. |
-
-| style | object | {} | Content of the modal. |
+| style | type : object | default value : {} | description : Content of the modal. |
